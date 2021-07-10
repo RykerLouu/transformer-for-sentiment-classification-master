@@ -10,7 +10,7 @@ from collections import Counter
 from sklearn.metrics import accuracy_score
 from utils import constant
 
-NO_RELATION = constant.NO_RELATION
+#NO_RELATION = constant.NO_RELATION
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description='Score a prediction file using the gold labels.')
